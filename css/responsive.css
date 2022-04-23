@@ -1,0 +1,497 @@
+
+
+
+
+/* for lg devices */
+
+@media screen and (min-width:992px) and (max-width: 1199px) {
+
+
+          
+
+            }
+
+
+/* for ipad */
+
+@media screen and (min-width:768px) and (max-width: 991px) {
+
+   /* header */
+
+   .navbar-nav {
+    background-color: #ffffff !important;
+}
+
+.navbar-nav li a {
+    color: #000000 !important;
+}
+
+.navbar-nav li:first-of-type a {
+    margin-top: 20px;
+}
+
+.navbar-nav li {
+    margin-left: 30px;
+}
+
+.navbar-nav .active-nav {
+   margin-bottom: 30px;
+}
+
+.bars i {
+   color: #ffffff;
+   font-size: 24px;
+}
+
+
+
+
+
+
+
+   .hero-area {
+    padding: 50px 0 68px 0;
+   }
+
+   .hero-content h1 {
+    font-size: 40px;
+
+   }
+
+   .hero-content p {
+    margin: 5px 0 40px 0;
+   }
+
+   /* <!-- get app area --> */
+
+   .get-app-area {
+    padding: 40px 0 60px 0;
+    }
+
+   .get-title h2 {
+    font-size: 35px;
+    }
+
+    .get-title h2 span {
+      margin-bottom: 50px; 
+    }
+
+    .get-left-side {
+        padding: 100px 40px;
+        margin-bottom: 40px;
+    }
+
+    .get-left-side h2,
+    .get-left-side h3 {
+        font-size: 28px;
+    }
+
+    .get-left-side h3 {
+        margin: 25px 0;
+    }
+
+    .get-img img {
+       width: 180px;
+    }
+
+    /* starten area */
+
+    .starten-area {
+        padding: 0 0 60px 0;
+    }
+
+    .starten-content {
+        margin: 70px 30px 20px 0;
+    }
+
+    .starten-btn {
+        margin-top: 35px;
+    }
+
+    /* vragen area */
+
+    .vragen-area {
+        padding: 0;
+    }
+
+    .vragen-content {
+        padding: 70px 0 0 30px;
+    }
+
+    .vragen-content h2 {   
+        font-size: 35px;
+     }
+
+     .vragen-content span {
+        width: 145px;
+     }
+
+     .vragen-content p {   
+        font-size: 20px;
+        text-align: justify;  
+     }
+
+     /* veadient area */
+
+     .vradient-content {
+        padding: 100px 30px 0 0;
+     }
+
+     .vradient-content h2 {
+        font-size: 30px;  
+    }
+
+    .vradient-content p {
+        font-size: 20px;
+        margin-top: 15px;
+        line-height: 28px;
+     } 
+
+     .vradient-img {
+        padding: 0;
+        margin: 170px 0 0 20px;  
+    }
+   
+    /* waarom */
+
+    .waarom-area {
+        padding: 75px 0 20px 0;
+      }
+
+   .waarom-content {
+       margin-bottom: 65px;
+   }
+
+   /* door hell */
+
+   .door-hell-area {
+    padding: 80px 0;
+  }
+
+  .waarom-title h2 {
+    font-size: 30px;
+ }
+
+ /* footer */
+
+ .footer-top {
+    display: flex;
+    justify-content: flex-start;
+    }
+
+    .social-links {
+        margin: 0 auto;
+    }
+
+    .copyright-area .app-item {
+        display: flex;
+    }
+
+    .app-item img {
+        width: 120px;
+        height: 40px;
+    }
+
+    .app-item img:first-of-type {
+        margin-right: 15px;
+    }
+
+    .copy-text p {
+        font-size: 15px;
+        line-height: 26px;
+        margin-top: 10px;
+    }
+
+    .copy-right-side {
+        background-position: 93% 22%;
+    }
+
+    .copy-right-side img {
+      width: 30px;
+    }
+
+    .copy-right-side span { 
+        font-size: 15px;
+    }
+    
+
+}
+
+
+
+
+
+/* for mobile */
+
+@media screen and (max-width: 767px){
+
+
+    /* header */
+
+    .navbar-nav {
+        background-color: #ffffff !important;
+    }
+    
+    .navbar-nav li a {
+        color: #000000 !important;
+    }
+    
+    .navbar-nav li:first-of-type a {
+        margin-top: 20px;
+    }
+    
+    .navbar-nav li {
+        margin-left: 30px;
+    }
+    
+    .navbar-nav .active-nav {
+       margin-bottom: 30px;
+    }
+    
+    .bars i {
+       color: #ffffff;
+       font-size: 24px;
+    }
+    
+
+
+
+
+
+
+    .hero-area {
+        padding: 20px 0 53px 0;
+    }
+
+    .hero-content h1 {
+        font-size: 26px;
+        line-height: 40px;
+     
+    }
+
+    .hero-content p {
+        margin: 5px 0 40px 0;
+    }
+
+    .hero-btn {
+        display: block;
+    }
+
+    .ik-will-content:last-of-type {
+        margin-top: 36px;
+    }
+
+    .hero-img img {
+        margin-top: 45px;
+    }
+
+    /* get app area */
+
+    .get-app-area {
+        padding: 50px 0 90px 0;
+    }
+
+    .get-title h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .get-title h2 br {
+        display: none;
+    }
+
+    .get-title h2 span {
+        margin-bottom: 45px;
+    }
+
+    .get-left-side {
+        padding: 30px 70px 30px 35px;
+    }
+
+    .get-left-side h2,
+    .get-left-side h3 {
+    font-size: 20px;
+    line-height: 30px;
+    }
+
+    .get-left-side h3 {
+        margin: 15px 0 10px 0;
+    }
+
+    .get-img img {
+        max-width: 47%;
+    }
+
+    .get-right-side {
+        text-align: center !important;
+        margin-top: 45px;
+    }
+
+    /* starten area */
+
+    .starten-area {
+        padding: 0 0 65px 0;
+    }
+
+    .starten-title h2 {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    .starten-content {
+        margin: 25px 0 40px 0;
+        padding: 35px 20px 15px 20px;
+        min-height: 430px;
+    }
+
+    .starten-content p {
+       margin: 0;
+    }
+
+
+    /* vragen -area */
+
+    .vragen-area {
+        padding: 0 0 95px 0;
+    }
+
+    .vragen-area .col-lg-7 {
+        order: 1;
+    }
+
+    .vragen-area .col-lg-5 {
+        order: 2;
+    }
+
+    .vragen-content {
+        padding: 0 20px;
+    }
+
+    .vragen-content h2 {   
+        font-size: 30px;
+        line-height: 37px;
+     }
+
+     .vragen-content h2::after {
+        width: 110px;
+        top: 56px;
+        left: 4px;
+     }
+
+     .vragen-content p {     
+        font-size: 20px;
+        text-align: justify;
+     }
+
+     /* vradient area */
+
+     .vradient-area {
+        padding: 0 0 100px 0;
+    }
+
+    .vradient-content h2 {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    .vradient-content h2::after {
+        top: 85px;
+     }
+
+     .vradient-content p {
+         font-size: 20px;
+     }
+
+    .vradient-content {
+        padding: 0;
+      }
+
+      .vradient-img {
+        padding: 0;
+    }
+
+    /* waarom area */
+
+    .waarom-area {
+        padding: 0;
+     }
+
+     .waarom-title h2 {
+        font-size: 30px;
+     }
+
+     .waarom-title h2::after {
+        top:  85px;
+        left: 110px;
+     }
+
+     .waarom-content {
+         margin-bottom: 80px;
+     }
+
+     /* door hell */
+
+     .door-hell-area {
+        padding: 90px 0;
+    }
+
+     .door-hell-title h2 {
+        font-size: 30px;
+        line-height: 37px;
+     }
+
+     /* footer */
+
+     .footer-top {
+        display: block;
+    }
+
+    .footer-logo {
+         margin-left: 15px;
+    }
+
+    .social-links a i {
+        margin: 50px 0 0 7px;
+    }
+
+    .copyright-area {
+       display: block;
+   }
+
+   .app-item {
+       margin-top: 10px;
+   }
+
+   .copy-text {
+       margin: 40px 0;
+       order: 1;
+   }
+
+   .copy-right-side {
+       order:2;
+       display: inline-block;
+       background-position: 94% 43%;
+   }
+
+
+    
+    
+
+
+
+    
+    
+    
+
+    
+
+   
+        
+
+  
+  
+}
+
+
+
+
